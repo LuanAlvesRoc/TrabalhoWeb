@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.cabeçalho{
+    background: #6B624C;
+    display: flex;
+
+}
+
+#logo-1 > img{
+    width: 10vw;/*largura*/
+   /* height: 10vh; altura*/
+    margin-top: 5px;
+    margin-left: 300px;
+}
+
+.cabeçalho > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.cabeçalho-lista{
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+.cabeçalho-lista > li{
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
+
+.principal{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    background: url(bg4.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.logo-main{
+    left: -13%;
+    position: relative;
+    width: 25%;
+    bottom: 35%;
+    height:auto ;
+    margin-top: 15px;
+}
+
+a {
+    color:black ;
+    text-decoration: none;
+    transition: 0.3;
+
+}
+a:hover{
+    opacity: 0.6;
+}
+.tela{
+    display: flex;
+    position: relative;
+    top: -10%;
+    left: 15%;
+    background: #000000b4;
+    width:900px;
+    height: 400px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.imagem{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 90%;
+}
+.tela > div > p{
+    display: flex;
+    color: azure;
+    margin-left: 50%;
+    position: relative;
+    bottom: 50%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+h1,h2{
+    display: flex;
+    color: rgb(22, 148, 148);
+    margin-left: 30%;
+    position: relative;
+    bottom: 50%;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    left: 200px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: #6B624C;
+    height: 10vh;
+}
+
+#dados-1{
+    align-items: center;
+}
+.rodape p{
+    align-items: center;
+
+}

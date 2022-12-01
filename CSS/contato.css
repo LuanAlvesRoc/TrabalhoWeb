@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.cabeçalho{
+    background: #6B624C;
+    display: flex;
+
+}
+
+#logo-1 > img{
+    width: 10vw;/*largura*/
+   /* height: 10vh; altura*/
+    margin-top: 5px;
+    margin-left: 300px;
+}
+
+.cabeçalho > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.cabeçalho-lista{
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+.cabeçalho-lista > li{
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
+
+.principal{
+    display: flex;
+    background: url(bg4.jpg) no-repeat center center;
+    background-size: cover;
+    align-items: center;
+    height: 92vh
+}
+.logo-main{
+    left: 38%;
+    position: relative;
+    width: 25%;
+    bottom: 35%;
+    height:auto ;
+    margin-top: 15px;
+}
+
+a {
+    color:black ;
+    text-decoration: none;
+    transition: 0.3;
+
+}
+a:hover{
+    opacity: 0.6;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 35%;
+    width: 30%;
+    left: -20%;
+}
+.esquerda{
+    width: 1000px;
+    left: 350px;
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+    justify-content: center;
+}
+
+
+.detalhes-endereco{
+    margin: 14px;
+    text-align: center;
+}
+.conteudo img{
+    margin-bottom: 10px;
+}
+.topico{
+    font-size: 18px;
+    font-weight: 500;
+}
+.conteudo .esquerda .detalhes-endereco .texto-01, .texto-02{
+    font-size: 36px;
+    color: #000000ec;
+}
+.direita{
+    width: 115%;
+    margin-left: 55px;
+}
+.topico-box{
+    font-size: 43px;
+    font-weight: 880;
+    color: #000000;
+}
+.input-box, .input-box-m{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+.input-box input, .input-box textarea, .input-box-m textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #ffffffa2;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+.input-box-m{
+    min-height: 6px;
+}
+.input-box textarea{
+    padding-top: 6px;
+}
+.botao input{
+    background: #535800;
+    border: #F3C288;
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao input:hover{
+    background: #e9eb7b;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: #6B624C;
+    height: 10vh;
+}
+
+#dados-1{
+    align-items: center;
+}
+.rodape p{
+    align-items: center;
+
+}

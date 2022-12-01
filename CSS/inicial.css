@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.cabeçalho{
+    background: #6B624C;
+    display: flex;
+
+}
+
+#logo-1 > img{
+    width: 10vw;/*largura*/
+   /* height: 10vh; altura*/
+    margin-top: 5px;
+    margin-left: 300px;
+}
+
+.cabeçalho > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.cabeçalho-lista{
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+.cabeçalho-lista > li{
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    background: url(bg4.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+main > img{
+    align-items: center;
+    margin-left: 30%;
+    width: 50%;
+    height: auto;
+    margin-bottom: 120px;
+}
+a {
+    color:black ;
+    text-decoration: none;
+    transition: 0.3;
+
+}
+a:hover{
+    opacity: 0.7;
+
+}
+
+div{
+    position: absolute;
+    top:85% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #6B624C;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.barrapesquisa{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 40px;
+    width: 550px;
+}
+
+.botao{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #EAD08F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.botao > img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+.botao :hover{
+    opacity: 0.7;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: #6B624C;
+    height: 10vh;
+}
+
+#dados-1{
+    align-items: center;
+}
+.rodape p{
+    align-items: center;
+
+}
